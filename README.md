@@ -14,3 +14,7 @@ I am not, in anyway, making promises on progress, a working emulator, or a succe
 
 ###### Discord
 https://discord.gg/9k5Qxp3
+
+###### Progress Before This
+https://github.com/machinamentum/CTR64
+Huge shoutout to this guy :)
