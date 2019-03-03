@@ -10,11 +10,18 @@ I want to change that.
 
 ### Disclaimer
 
-I am not, in anyway, making promises on progress, a working emulator, or a succesful release. The N64 by itself is a complex system to emulate due to the nature of the console, generally requiring more than a standard 3DS can offer in terms of computing power. On top of that, I don't have a huge amount of time to dedicate to this project, but I will be doing my best.
+I am not, in anyway, making promises on progress, a working emulator, or a successful release. The N64 by itself is a complex system to emulate due to the nature of the console, generally requiring more than a standard 3DS can offer in terms of computing power. On top of that, I don't have a huge amount of time to dedicate to this project, but I will be doing my best.
+
+#### Current Status
+
+Non-existent
 
 ###### Discord
+
+This is the official discord for this project; if you want to get involved, join it!
 https://discord.gg/9k5Qxp3
 
-###### Progress Before This
+###### Related
 https://github.com/machinamentum/CTR64
+
 Huge shoutout to this guy :)
