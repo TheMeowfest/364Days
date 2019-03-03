@@ -12,7 +12,7 @@ I want to change that.
 
 I am not, in anyway, making promises on progress, a working emulator, or a successful release. The N64 by itself is a complex system to emulate due to the nature of the console, generally requiring more than a standard 3DS can offer in terms of computing power. On top of that, I don't have a huge amount of time to dedicate to this project, but I will be doing my best.
 
-#### Current Status
+### Current Status
 
 Non-existent
 
