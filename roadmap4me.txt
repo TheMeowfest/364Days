@@ -1,0 +1,19 @@
+learn c++
+learn the systems
+
+1. load file - var
+2. read file - token()
+3. reasearch N64 system (cpu, ram)(boot sequencing)(n64.icequake.net)(cart start & stop)
+4. onlinedisassembler.com
+4. dd conv=swab if=rom of=outputrom
+4. look for cpu architecture instruction (datasheet)(datasheets.chipdb.org)
+5. hex -> binary (match binary in cpu)
+6. memory map
+7. emulators (mupen64, pj64, CTR64, cen64)
+7. research circumvention of bios
+8. start looking at power on
+-32bit = 32 stuff
+-64 bit = 64 stuff
+9. CPU Registers - vars
+-Big Endian
+10. UNDERSTAND EVERYTHING ABOUT THE CPU (what writes where, when, what, how, etc.)(be specific)
