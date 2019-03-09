@@ -14,11 +14,11 @@ I am not, in anyway, making promises on progress, a working emulator, or a succe
 
 ### About
 
-364Days is an HLE emulator designed by me.
+364Days is an HLE emulator.
 The focus is to get some of the more popular titles running, however, a majority of testing will be done with demo roms grabbed  from [here](https://www.pouet.net) and other sources. It will most likely only be able to run on New Nintendo 3DS/2DS models, as the N64 requires more ram than the SNES would, and Nintendo's SNES Virtual Console emulates only on newer systems. The 3D graphics within a majority of N64 games most likely won't be anything decent for a long time to come. I'm starting work on the emulator in Java, and as I learn more C++, will eventually translate it into that. When the time comes for a release, there will be an announcement posted in the discord (if someone wants to open other social media accounts for the project, email me), as well as a .3dsx file under releases. A .cia file will not be in the works until I can guarantee that the emulator has a decent GUI and a save system, which then releases will have both. Most of the work will be done on weekends, as I am a student and need to focus on school during the week.
 **Development will be slow.**
 
-Work started on 3/2/18. 
+Work started on 3/2/18.
 
 #### Current Status
 
