@@ -1,5 +1,7 @@
 # 364Days
 
+![alt text](https://raw.githubusercontent.com/TheMeowfest/364Days/master/logo_light.png)
+
 (temp name)(wip)
 > An experiment attempting to make the impossible *possible*.
 >> A N64 emulator for the N3DS/N2DS.
