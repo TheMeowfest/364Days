@@ -51,6 +51,7 @@ const uint32_t PI_BSD_DOM1_RLS_REG    = 0x04600020;
 const uint32_t SI_BASE_REG            = 0x04800000;
 const uint32_t SI_STATUS_REG          = 0x04800018;
 
+//opcode signatures
 void Opcode(unsigned char Current_Instruction){
   unsigned char Special     = 0b000000;
   unsigned char RegImm      = 0b000001;
@@ -96,6 +97,7 @@ void Opcode(unsigned char Current_Instruction){
   unsigned char Sd          = 0b111111;
 }
 
+//coprocessor used? //TODO - find out, and what var
 //void CoOpcode(unsigned char Current_instruction){ //signed var by nintendo..
 //  Cop0        = 0b010000;
 //  Cop1        = 0b010001;
@@ -103,6 +105,7 @@ void Opcode(unsigned char Current_Instruction){
 //  Cop3        = 0b010011;
 //}
 
+//CPU Registers
 struct Cpu {
 	uint64_t GPR[32];
 	uint64_t FPR[32];
@@ -115,6 +118,7 @@ struct Cpu {
 	struct Cp0;
 }
 
+//SYSTEM COPROCESSOR (CP0) Registers
 struct Cp0 {
 	uint64_t Index;
 	uint64_t Random;
@@ -147,5 +151,5 @@ uint64_t imm = (uint16_t)RegImm
 
 int main()
 {
-printf(imm)
+fopen("C:\Users\judym\Downloads\pifdata.bin","rb")
 }
