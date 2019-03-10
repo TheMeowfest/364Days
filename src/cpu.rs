@@ -23,7 +23,7 @@ impl Cpu {
         self.cp0.power_on_reset();
     }
 
-    pub fn run() {
+    pub fn run(&mut self) {
         // TODO
     }
 }

@@ -1,3 +1,4 @@
+mod n64;
 mod cpu;
 
 use std::env;
@@ -11,6 +12,10 @@ fn main() {
 
     let pif = read_bin(pif_file_name);
     let rom = read_bin(rom_file_name);
+
+    let mut n64 = n64::N64::default();
+    n64.power_on_reset();
+    n64.run();
 
     let mut cpu = cpu::Cpu::default();
     cpu.power_on_reset();
