@@ -1,5 +1,6 @@
 mod n64;
 mod cpu;
+mod interconnect;
 
 use std::env;
 use std::fs;
