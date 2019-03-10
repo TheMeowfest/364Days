@@ -1,6 +1,7 @@
 use super::cpu;
 use super::interconnect;
 
+#[derive(Debug)]
 pub struct N64 {
     cpu: cpu::Cpu
 }
@@ -19,5 +20,9 @@ impl N64 {
 
     pub fn run(&mut self) {
         self.cpu.run();
+    }
+
+    pub fn run_instruction(&mut self) {
+        self.cpu.run_instruction();
     }
 }

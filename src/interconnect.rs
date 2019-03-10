@@ -1,3 +1,5 @@
+use std::fmt;
+
 const PIF_ROM_SIZE: usize = 2048;
 
 const RAM_SIZE: usize = 4 * 1024 * 1024;
@@ -26,7 +28,13 @@ impl Interconnect {
             ((self.pif_rom[(rel_addr + 2) as usize] as u32) << 8) |
             (self.pif_rom[(rel_addr + 3) as usize] as u32)
         } else {
-            panic!("unrecognized address: {:#x}", addr);
+            panic!("Unrecognized address: {:#x}", addr);
         }
+    }
+}
+
+impl fmt::Debug for Interconnect {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        write!(f, "TODO")
     }
 }
